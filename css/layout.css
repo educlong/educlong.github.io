@@ -53,6 +53,7 @@
 	font-weight: 800;
 	color: #FFF;
 	align-items: center;
+	margin-left: 20px
 }
 
 .header .logo a {
@@ -78,7 +79,7 @@
 	max-width: 100px;
 }
 
-.header .download-cv-btn {
+.header .download-cv-btn{
 	float: right;
 	margin-top: 8px;
 	margin-right: 8px;
@@ -793,7 +794,7 @@
 	color: #fff;
 }
 
-.section.started .btn {
+.section.started .btnPage {
 	margin-right: 15px;
 }
 
@@ -904,7 +905,7 @@
 	}
 
 
-	.section.started .btn {
+	.section.started .btnPage {
 		margin-right: 0;
 	}
 
@@ -2620,7 +2621,7 @@
 	}
 
 
-	.contact-form .btn {
+	.contact-form .btnPage {
 		top: -10px;
 		display: block;
 		width: 100%;

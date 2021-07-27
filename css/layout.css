@@ -3106,4 +3106,11 @@ iframe, object {
 		position: unset;
 		margin: 40px 0;
 	}  
+	span._5mdd {
+		color: white;
+	}
+	
+	span.UFICommentActorName {
+		color: cornflowerblue;
+	}
 }

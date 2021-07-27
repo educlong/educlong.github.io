@@ -3102,15 +3102,13 @@ iframe, object {
 	width: 90%;
   }
 @media (max-width: 1199px) {
+	.background-bg .background-img {
+		background-position: top;
+	}
 	.commentfacebook.container {
 		position: unset;
 		margin: 40px 0;
-	}  
-	span._5mdd {
-		color: white;
-	}
-	
-	span.UFICommentActorName {
-		color: cornflowerblue;
-	}
+		background-color: white;
+		margin-left: 10px;
+	}  	
 }

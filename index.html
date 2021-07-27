@@ -25,6 +25,7 @@
 	<link rel="stylesheet" href="css/owl.carousel.css" />
 	<link rel="stylesheet" href="css/swiper.css" />
 	<link rel="stylesheet" href="css/fontawesome.css" />
+	<link rel="stylesheet" href="css/styles.css" />
     <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
 
     <link rel="stylesheet" href="vendor/bootstrap.css">
@@ -60,6 +61,9 @@
 </head>
 
 <body class="home">
+	<div id="fb-root"></div>	<!--PHẦN XỬ LÝ COMMENT FACEBOOK-->
+	<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v11.0&appId=2841279129480318&autoLogAppEvents=1" nonce="2ltp2UDU"></script>
+
 
 	<!-- Preloader -->
 	<div class="preloader">
@@ -87,10 +91,11 @@
 					<img class="logo-img" src="images/logo.png" alt="" style="transform: scale(2.5) translateY(-4px);">
 					<span class="logo-lnk">ND Long <br>(Paul)</span>
 				</a>
+				<div class="small blockquote-footer" style="position: absolute;top: 75%;font-size: 10px;">
+					<cite title="Source Title">You have to think anyway, so why not think big </cite> (Donald Trump)
+				</div>
 			</div>
-            <div class="small blockquote-footer" style="position: absolute;top: 70%;">
-                <cite title="Source Title">You have to think anyway, so why not think big </cite> (Donald Trump)
-            </div>
+            
 			<!-- menu button -->
 			<a href="#" class="menu-btn"><span></span></a>
 				
@@ -108,21 +113,9 @@
 					<div class="top-menu-nav">	
 						<div class="menu-topmenu-container">
 							<ul class="menu">
-								<li class="menu-item current-menu-item menu-item-has-children">
+								<li class="menu-item">
 									<a href="#section-started">
 										<span class="animated-button"><span>Home</span></span>
-									</a>
-									<ul class="sub-menu">
-										<li class="menu-item"><a href="index.html">Home 1</a></li>
-										<li class="menu-item"><a href="index-2.html">Home 2</a></li>
-										<li class="menu-item"><a href="index-3.html">Home 3</a></li>
-										<li class="menu-item current-menu-item"><a href="index-slider.html">Home Slider</a></li>
-										<li class="menu-item"><a href="index-video.html">Home Video</a></li>
-									</ul>
-								</li>
-								<li class="menu-item">
-									<a href="#section-about">
-										<span class="animated-button"><span>About</span></span>
 									</a>
 								</li>
 								<li class="menu-item">
@@ -137,7 +130,7 @@
 								</li>
 								<li class="menu-item">
 									<a href="#section-contacts">
-										<span class="animated-button"><span>Contact</span></span>
+										<span class="animated-button"><span>About Me - Contact</span></span>
 									</a>
 								</li>
 							</ul>
@@ -162,16 +155,6 @@
 									<div class="background-img" style="background-image: url(images/long1.jpg);"></div>
 								</div>
 							</div>
-							<div class="swiper-slide">
-								<div class="background-filter">
-									<div class="background-img" style="background-image: url(images/long2.jpg);"></div>
-								</div>
-							</div>
-							<div class="swiper-slide">
-								<div class="background-filter">
-									<div class="background-img" style="background-image: url(images/long3.jpg);"></div>
-								</div>
-							</div>
 						</div>
 					</div>
 				</div>
@@ -191,7 +174,7 @@
 						<div class="started-content">
 
 							<!-- subtitle -->
-							<div class="h-subtitles">
+							<div class="h-subtitles mb-1">
 								<div class="h-subtitle typing-subtitle">
 									<p>Android Mobile Developer</p>
 									<p>Web Developer</p>
@@ -201,9 +184,59 @@
 							</div>
 
 							<!-- text -->
-							<div class="h-text">
+							<div class="h-text mb-1">
 								Hello! I am a Developer from Ontario, Canada. I have experience in web site development, mobile development (Android), also I am good at fullstack development. I love to talk with you about our unique.
 							</div>
+							<!-- info list -->
+							<div class="info-list mb-1">
+								<ul>
+									<li><strong>Residence:</strong> Vietnam</li>
+									<li><strong>Address:</strong>Hamilton, ON, Canada</li>
+									<li><strong>Phone:</strong> +1 289 933 79 74</li>
+									<li><strong>E-mail:</strong>educlong@gmail.com</li>
+								</ul>
+							</div>
+							<!--Skills Sec-->
+							<section id="skills_sec" class="skills-sec">
+								<div class="row">
+									<div class="col-sm-12 mb-1 info-list mb-1">
+										<ul class=" container-fluid">
+											<li class="mb-1 row">
+												<span class="text-xs-left">HTML</span>
+												<div class="progress-bar-graph col-sm-12"> 
+													<div class="progress-bar-wrap">
+														<div class="bar-wrap blue-bar">
+															<span data-width="60" style="width: 60%;"></span>
+														</div>
+													</div>	
+												</div>
+											</li>	
+											<li class="mb-1 row">
+												<span class="text-xs-left">Illustrator CS</span>
+												<div class="progress-bar-graph col-sm-12"> 
+													<div class="progress-bar-wrap">
+														<div class="bar-wrap green-bar">
+															<span data-width="90" style="width: 90%;"></span>
+														</div>
+													</div>	
+												</div>
+											</li>
+											<li class="mb-1 row">
+												<span class="text-xs-left">Sketch</span>
+												<div class="progress-bar-graph col-sm-12"> 
+													<div class="progress-bar-wrap">
+														<div class="bar-wrap yellow-bar">
+															<span data-width="50" style="width: 50%;"></span>
+														</div>
+													</div>	
+												</div>
+											</li>
+										</ul>
+									</div>
+									
+								</div>
+							</section>
+							<div class="clear"></div>
 
 							<!-- button -->
 							<a href="#section-contacts" class="btnPage">
@@ -221,58 +254,7 @@
 					</div>
 				</div>
 			</div>
-
-			<!-- Section About -->
-			<div class="section about" id="section-about">
-				<div class="content">
-
-					<!-- title -->
-					<div class="titles">
-						<div class="title">About Me</div>
-						<div class="subtitle">My story</div>
-					</div>
-
-					<!-- text -->
-					<div class="cols">
-						<div class="col">
-							<div class="single-post-text">
-								<p>
-									Pellentesque posuere. Praesent turpis. Aenean posuere, tortor sed cursus feugiat, nunc augue blandit nunc, eu sollicitudin urna dolor sagittis lacus.
-								</p>
-							</div>
-						</div>
-						<div class="col">
-							<div class="single-post-text">
-								<p>
-									Pellentesque posuere. Praesent turpis. Aenean posuere, tortor sed cursus feugiat, nunc augue blandit nunc, eu sollicitudin urna dolor sagittis lacus.
-								</p>
-							</div>
-						</div>
-						<div class="col col-full">
-							<div class="single-post-text">
-								<p>
-									Pellentesque posuere. Praesent turpis. Aenean posuere, tortor sed cursus feugiat, nunc augue blandit nunc, eu sollicitudin urna dolor sagittis lacus. Donec elit libero, sodales nec, volutpat a, suscipit non, turpis.
-								</p>
-							</div>
-						</div>
-					</div>
-
-					<!-- info list -->
-					<div class="info-list">
-						<ul>
-							<li><strong>Age:</strong> 29</li>
-							<li><strong>Residence:</strong> Vietnam</li>
-							<li><strong>Freelance:</strong> Available</li>
-							<li><strong>Address:</strong> Hamilton, ON, Canada</li>
-							<li><strong>Phone:</strong> +1 289 933 79 74</li>
-							<li><strong>E-mail:</strong> educlong@gmail.com</li>
-						</ul>
-					</div>
-
-					<div class="clear"></div>
-				</div>
-			</div>
-
+			
 			<!-- Section Service -->
 			<div class="section service" id="section-services">
 				<div class="content">
@@ -317,140 +299,94 @@
 
 
 			<!-- Section Resume -->
-			<div class="section resume" id="section-experience">
-				<div class="content">
+			<div class="section resume container-fluid" id="section-experience">
+				<div class="row">
+				<div class="content col-md-6 m-0 p-0">
 
 					<!-- title -->
-					<div class="titles">
+					<div class="titles ml-1 mr-1">
 						<div class="title">Experience</div>
 						<div class="subtitle">Working with</div>
 					</div>
 
 					<!-- resume items -->
 					<div class="content-carousel">
-						<div class="owl-carousel" data-slidesview="2" data-slidesview_mobile="1">
-
-							<div class="item">
-								<div class="resume-item active">
-									<div class="date">Present</div>
-									<div class="name">The Turin <br />Olympics</div>
-									<div class="single-post-text">
-										<p>
-											Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna.
-										</p>
+						<div class="timeline-wrap  overflow-hide mb-30 experience">
+							<ul class="timeline">
+								<li>
+									<div class="timeline-badge">
+										<i class="fas fa-building fa-2x text-primary"></i>
 									</div>
-								</div>
-							</div>
-
-							<div class="item">
-								<div class="resume-item">
-									<div class="date">2016-2018</div>
-									<div class="name">Red <br />Drifting</div>
-									<div class="single-post-text">
-										<p>
-											Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna.
-										</p>
+									<div class="timeline-panel mdl-card mdl-shadow--2dp pt-30 pb-30 border-top-blue" style="background: #585d65;">
+										<div class="resume-item">
+											<h4 class="name mb-2 text-md-right text-xs-left mr-2">
+												UI/UX Designer
+												<span class="institution text-info mt-2">Mar 2014 - present</span>
+											</h4>
+											<span class="date hidden-sm-down"  style="left: auto; right: -26px;">Present</span>
+										</div>
+										<div class="timeline-body">
+											<p class="mt-25 text-md-right text-xs-left">Invitamus me testatur sed quod non dum animae tuae lacrimis ut libertatem deum rogus aegritudinis causet. Dicens hoc contra serpentibus isto.</p>
+										</div>
 									</div>
-								</div>
-							</div>
-
-							<div class="item">
-								<div class="resume-item">
-									<div class="date">2014-2016</div>
-									<div class="name">World <br />Economy</div>
-									<div class="single-post-text">
-										<p>
-											Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna.
-										</p>
+								</li>
+								<li>
+									<div class="timeline-badge">
+										<i class="fas fa-rocket fa-2x text-danger"></i>
 									</div>
-								</div>
-							</div>
-
-							<div class="item">
-								<div class="resume-item">
-									<div class="date">2012-2014</div>
-									<div class="name">Art Director <br />Facebook</div>
-									<div class="single-post-text">
-										<p>
-											Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna.
-										</p>
+									<div class="timeline-panel mdl-card mdl-shadow--2dp pt-30 pb-30 border-top-yellow" style="background: #585d65;">
+										<div class="resume-item">
+											<h4 class="name mb-2 text-md-right text-xs-left mr-2">
+												UI/UX Designer
+												<span class="institution text-info mt-2">Mar 2014 - present</span>
+											</h4>
+											<span class="date hidden-sm-down"  style="left: auto; right: -26px;">Present</span>
+										</div>
+										<div class="timeline-body">
+											<p class="mt-25 text-md-right text-xs-left">Invitamus me testatur sed quod non dum animae tuae lacrimis ut libertatem deum rogus aegritudinis causet. Dicens hoc contra serpentibus isto.</p>
+										</div>
 									</div>
-								</div>
-							</div>
-
+								</li>
+								<li class="clearfix no-float"></li>
+							</ul>
 						</div>
-
 					</div>
-
 				</div>
-			</div>
-
-			<!-- Section Resume -->
-			<div class="section resume" id="section-education">
-				<div class="content">
+				<div class="content col-md-6 m-0 p-0">
 
 					<!-- title -->
-					<div class="titles">
+					<div class="titles ml-1 mr-1">
 						<div class="title">Education</div>
 						<div class="subtitle">Studied at</div>
 					</div>
 
 					<!-- resume items -->
 					<div class="content-carousel">
-						<div class="owl-carousel" data-slidesview="2" data-slidesview_mobile="1">
-
-							<div class="item">
-								<div class="resume-item active">
-									<div class="date">2011-2012</div>
-									<div class="name">Art University <br />New York</div>
-									<div class="single-post-text">
-										<p>
-											Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna.
-										</p>
+						<div class="timeline-wrap  overflow-hide mb-30">
+							<ul class="timeline">
+								<li class="timeline-inverted">
+									<div class="timeline-badge">
+										<i class="fas fa-school fa-2x text-success"></i>
 									</div>
-								</div>
-							</div>
-
-							<div class="item">
-								<div class="resume-item">
-									<div class="date">2010-2011</div>
-									<div class="name">Programming Course <br />Paris</div>
-									<div class="single-post-text">
-										<p>
-											Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna.
-										</p>
+									<div class="timeline-panel mdl-card mdl-shadow--2dp  pt-30 pb-30 border-top-green" style="background: #585d65;">
+										<div class="resume-item">
+											<h4 class="name mb-2 text-xs-left">
+												UI/UX Designer
+												<span class="institution text-info mt-2">Mar 2014 - present</span>
+											</h4>
+											<span class="date hidden-sm-down">Present</span>
+										</div>
+										<div class="timeline-body">
+											<p class="mt-25 text-xs-left">Invitamus me testatur sed quod non dum animae tuae lacrimis ut libertatem deum rogus aegritudinis causet. Dicens hoc contra serpentibus isto.</p>
+										</div>
 									</div>
-								</div>
-							</div>
-
-							<div class="item">
-								<div class="resume-item">
-									<div class="date">2009-2010</div>
-									<div class="name">Web Design Course <br />London</div>
-									<div class="single-post-text">
-										<p>
-											Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna.
-										</p>
-									</div>
-								</div>
-							</div>
-
-							<div class="item">
-								<div class="resume-item">
-									<div class="date">2012-2014</div>
-									<div class="name">Art Course <br />London</div>
-									<div class="single-post-text">
-										<p>
-											Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna.
-										</p>
-									</div>
-								</div>
-							</div>
-
+								</li>
+								<li class="clearfix no-float"></li>
+							</ul>
 						</div>
-
 					</div>
 
+				</div>
 				</div>
 			</div>
 
@@ -523,78 +459,6 @@
 					</div>
 
 				</div>
-			</div>
-
-			<!-- Section Languages Skills -->
-			<div class="section skills" id="section-skills-lang">
-				<div class="content">
-
-					<!-- title -->
-					<div class="titles">
-						<div class="title">Language Skills</div>
-						<div class="subtitle">Reading and writing</div>
-					</div>
-
-					<!-- skills items -->
-					<div class="skills dotted">
-						<ul>
-							<li>
-								<div class="name">English</div>
-								<div class="single-post-text">
-									<p>
-										Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh.
-									</p>
-								</div>
-								<div class="progress">
-									<div class="percentage" style="width: 90%;">
-										<span class="percent">90%</span>
-									</div>
-								</div>
-							</li>
-							<li>
-								<div class="name">German</div>
-								<div class="single-post-text">
-									<p>
-										Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh.
-									</p>
-								</div>
-								<div class="progress">
-									<div class="percentage" style="width: 70%;">
-										<span class="percent">70%</span>
-									</div>
-								</div>
-							</li>
-							<li>
-								<div class="name">Italian</div>
-								<div class="single-post-text">
-									<p>
-										Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh.
-									</p>
-								</div>
-								<div class="progress">
-									<div class="percentage" style="width: 55%;">
-										<span class="percent">55%</span>
-									</div>
-								</div>
-							</li>
-							<li>
-								<div class="name">French</div>
-								<div class="single-post-text">
-									<p>
-										Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh.
-									</p>
-								</div>
-								<div class="progress">
-									<div class="percentage" style="width: 85%;">
-										<span class="percent">85%</span>
-									</div>
-								</div>
-							</li>
-						</ul>
-					</div>
-
-				</div>
-
 			</div>
 
 			<!-- Section Coding Skills -->
@@ -1119,12 +983,38 @@
 				<div class="content">
 
 					<!-- title -->
-					<div class="titles">
+					<div class="titles mb-1">
 						<div class="title">Contact</div>
-						<div class="subtitle">Let's talk</div>
+						<div class="subtitle">About me - MY STORY</div>
 					</div>
-
+					<!-- text -->
+					<div class="cols">
+						<div class="col">
+							<div class="single-post-text">
+								<p>
+									Pellentesque posuere. Praesent turpis. Aenean posuere, tortor sed cursus feugiat, nunc augue blandit nunc, eu sollicitudin urna dolor sagittis lacus.
+								</p>
+							</div>
+						</div>
+						<div class="col">
+							<div class="single-post-text">
+								<p>
+									Pellentesque posuere. Praesent turpis. Aenean posuere, tortor sed cursus feugiat, nunc augue blandit nunc, eu sollicitudin urna dolor sagittis lacus.
+								</p>
+							</div>
+						</div>
+						<div class="col col-full">
+							<div class="single-post-text">
+								<p>
+									Pellentesque posuere. Praesent turpis. Aenean posuere, tortor sed cursus feugiat, nunc augue blandit nunc, eu sollicitudin urna dolor sagittis lacus. Donec elit libero, sodales nec, volutpat a, suscipit non, turpis.
+								</p>
+							</div>
+						</div>
+					</div>
 					<!-- contact form -->
+					<div class="titles mb-1">
+						<div class="subtitle">LET'S TALK</div>
+					</div>
 					<div class="contact-form">
 						<form id="cform" method="post">
 							<div class="group-val">
@@ -1165,13 +1055,35 @@
 								<li><strong>E-mail:</strong> educlong@gmail.com</li>
 							</ul>
 						</div>
-						<div class="author">NguyenDuc Long</div>
+						<div class="author">Nguyen Duc Long</div>
 					</div>
 
 					<div class="clear"></div>
 				</div>
 			</div>
 
+			
+			<!-- Add thêm mục comment facebook, cách làm theo các bước sau: 
+			Bước 1: vào https://developers.facebook.com/ tạo 1 app (các bước tạo rất đơn zản)
+			Bước 2: vào trang comment https://developers.facebook.com/docs/plugins/comments
+			Bước 3: Tại mục Comments Plugin Code Generator, điền URL vào (https://educlong.github.io/), đặt width và Number of Posts (số comment)
+			Bước 4: Nhấn "Get Code" để lấy mã
+			Bước 5: Sau khi Get Code thì xổ ra 1 cửa sổ, làm theo từng bước. Chọn App ID: elong.github.io và languate: English(US)
+			Bước 6: Tạo 1 khối comment-->
+			<div class="commentfacebook container">
+				<div class="row">
+					<div class="col-sm-12 ">
+						<h5 class="text-xs-center">Contact Me via Facebook</h5>
+						<div class="contentfacebook">	<!--Bước 7: Copy plugin từ https://developers.facebook.com/docs/plugins/comments vào-->
+							<div class="fb-comments" data-href="https://educlong.github.io/" data-width="576" data-numposts="5"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- 
+			Bước 8: Copy đoạn code tại bước 2, page https://developers.facebook.com/docs/plugins/comments 
+				vào ngày đằng sau thẻ body => lên thẻ body paste vào
+			Bước 9: push lên github bằng bộ ba lệnh git-->
 		</div>
 		
 		<!-- Footer -->

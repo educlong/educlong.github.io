@@ -584,10 +584,10 @@
 	overflow: hidden;
 	padding-left: 2%!important;
 	padding-right: 2%;
-	padding-top: 70px;
-	padding-bottom: 70px;
+	padding-top: 60px;
+	padding-bottom: 60px;
 	border-bottom: 1px solid #585d65;
-	z-index: 12;
+	/* z-index: 12; */
 	/* margin-left: -125px!important; */
 }
 
@@ -629,7 +629,7 @@
 
 .content-carousel {
 	position: relative;
-	z-index: 2;
+	/* z-index: 2; */
 }
 
 .content-carousel .owl-carousel .item img {
@@ -749,7 +749,7 @@
 	position: relative;
 	overflow: visible;
 	height: 100vh;
-	z-index: 11;
+	/* z-index: 4; */
 	top: -60px
 }
 
@@ -777,6 +777,7 @@
 .section.started .started-content {
 	padding-left: 8%;
 	max-width: 100%;
+	margin-top: -60px;
 }
 
 .section.started .started-content .h-subtitles {
@@ -898,6 +899,7 @@
 	.section.started .started-content {
 		padding-left: 0;
 		max-width: 100%;
+		margin-top: 0;
 	}
 
 
@@ -1072,12 +1074,18 @@
 	width: 50%;
 }
 
+br.separateWebDevAndOther{
+	display: none;
+}
 .skills .name {
-	margin: 0 0 30px 0;
+	margin: 0 0 -25px 0;
 	position: relative;
 	font-size: 18px;
 	color: #FFF;
 	font-weight: 800;
+}
+.skills.circles .name {
+    margin: -25px 0 15px 0;
 }
 
 .skills .single-post-text {
@@ -1231,7 +1239,7 @@
 	line-height: 90px;
 	text-align: center;
 	white-space: nowrap;
-	z-index: 2;
+	z-index: 1;
 }
 
 .skills.circles .progress .percentage {
@@ -2289,8 +2297,15 @@
 
 
 @media (max-width: 720px) {
+	.skills ul{
+		margin: -40px -200px 0 -150px;
+	}
 	.skills ul li {
 		width: 100%;
+	}
+
+	br.separateWebDevAndOther{
+		display: inline;
 	}
 
 
@@ -2806,7 +2821,7 @@
 }
 
 .reviews-item .text:before {
-	content: 'â€œ';
+	content: '“';
 	position: absolute;
 	left: 0;
 	top: 0;
@@ -2986,7 +3001,7 @@ iframe, object {
 }
 
 .popup-box .image {
-	height: 560px;
+	height: auto;
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
@@ -3112,3 +3127,78 @@ iframe, object {
 		margin-left: 10px;
 	}  	
 }
+
+.section.started .skills ul {
+    margin-top: -10px;
+}
+.section.started .skills ul li {
+    padding: 0px 0;
+    width: 9.5%;
+}
+.section.started .skills ul li .progress, .section.started .skills ul li .progress .slice {
+    width: 52px;
+    height: 52px;
+}
+
+.section.started .skills ul li .progress span {
+    line-height: 15px;
+    left: 0px;
+    transform: translateY(12px);
+}
+
+.section.started .skills ul li .progress .slice .bar, .section.started .skills ul li .progress .slice .fill, .section.started .skills.circles .progress:after {
+    width: 45px;
+    height: 45px;
+}
+.section.started .skills.circles .progress:after {
+    top: 4px;
+    left: 4px;
+}
+
+
+.section.started .skills.circles .progress.p95 .bar {
+	transform: rotate(225deg);
+	-webkit-transform: rotate(180deg);
+	-moz-transform: rotate(324deg);
+	-o-transform: rotate(324deg);
+}
+.section.started .skills.circles .progress .bar {
+	position: absolute;
+    width: 0.92em;
+    height: 0.92em;
+    clip: rect(0em, 0.3em, 1em, 0em);
+    -webkit-clip: rect(0em, 0.3em, 1em, 0em);
+    border: 0.04em solid #68e0cf;
+    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -khtml-border-radius: 50%;
+}
+
+
+.section.started .skills.circles .progress .fill {
+	position: absolute;
+	width: 0.92em;
+	height: 0.92em;
+	clip: rect(0em, 0.3em, 1em, 0em);
+	-webkit-clip: rect(0em, 0.3em, 1em, 0em);
+	border: 0.04em solid #68e0cf;
+	transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+	border-radius: 50%;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-khtml-border-radius: 50%;
+}
+
+.section.started .skills.circles .progress .slice {
+	clip: rect(auto, auto, auto, auto);
+	-webkit-clip: rect(auto, auto, auto, auto);
+}
+

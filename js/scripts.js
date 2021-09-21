@@ -31,6 +31,11 @@ window.addEventListener('DOMContentLoaded', event => {
         });
     });
 
+    
+    $(".started-content a.btnPage.btnContact").click(function(event){ /*nth-child: tức là 4th,5th -> số thứ tự. lấy các phầntử trong thẻ li*/
+		// event.preventDefault();	/*prevent: chặn, Default: mặc định --> chặn mặc định trỏ đến page # (ở đây thẻ a -> chặn k cho đến thẻ a)*/
+		$("html").animate({ scrollTop: $(".section.contacts").offset().top }, 1000);/*xử lý cuộn chuột trong html. Hàm scrollTop --> cuộn*/
+	});	/*chuột xuống dưới đến tận vị trí của div có class là chapter1OnePage $(".chapter1OnePage").offset().top*/		/*1000 --> tốc độ 1s*/
 });
 
 

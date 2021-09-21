@@ -947,7 +947,7 @@
 
 .info-list ul {
 	list-style: none;
-	margin: 0 -20px;
+	margin: 0 0px;
 	padding: 0;
 	font-size: 0;
 }
@@ -1078,7 +1078,7 @@ br.separateWebDevAndOther{
 	display: none;
 }
 .skills .name {
-	margin: 0 0 -25px 0;
+	margin: 0 0 -15px 0;
 	position: relative;
 	font-size: 18px;
 	color: #FFF;
@@ -1240,6 +1240,14 @@ br.separateWebDevAndOther{
 	text-align: center;
 	white-space: nowrap;
 	z-index: 1;
+}
+
+.skills.circles:nth-child(2) .progress span:nth-child(3) {
+    top: 10px;
+	text-decoration: underline;
+}
+.skills.circles:nth-child(2) .progress span:nth-child(2) {
+    top: -6px;
 }
 
 .skills.circles .progress .percentage {
@@ -2300,6 +2308,12 @@ br.separateWebDevAndOther{
 	.skills ul{
 		margin: -40px -200px 0 -150px;
 	}
+	.skills:nth-child(2) ul {
+		margin: -40px -20px 0;
+	}
+	.skills.percent ul {
+		margin: -40px 0 0 0;
+	}
 	.skills ul li {
 		width: 100%;
 	}
@@ -3029,6 +3043,9 @@ iframe, object {
 	font-size: 12px;
 	color: #fff;
 }
+.popup-box ul li.category {
+    display: list-item;
+}
 
 
 .popup-box .desc h4 {
@@ -3156,12 +3173,59 @@ iframe, object {
 }
 
 
-.section.started .skills.circles .progress.p95 .bar {
-	transform: rotate(225deg);
-	-webkit-transform: rotate(180deg);
-	-moz-transform: rotate(324deg);
-	-o-transform: rotate(324deg);
-}
+.section.started .skills.circles .progress.p50 .bar {transform: rotate(225deg);-webkit-transform: rotate(180deg);-moz-transform: rotate(324deg);-o-transform: rotate(324deg);}
+.section.started .skills.circles .progress.p51 .bar {transform: rotate(225deg);-webkit-transform: rotate(183.6deg);-moz-transform: rotate(324deg);-o-transform: rotate(324deg);}
+.section.started .skills.circles .progress.p52 .bar {transform: rotate(225deg);-webkit-transform: rotate(187.2deg);-moz-transform: rotate(324deg);-o-transform: rotate(324deg);}
+.section.started .skills.circles .progress.p53 .bar {transform: rotate(225deg);-webkit-transform: rotate(190.8deg);-moz-transform: rotate(324deg);-o-transform: rotate(324deg);}
+.section.started .skills.circles .progress.p54 .bar {transform: rotate(225deg);-webkit-transform: rotate(194.4deg);-moz-transform: rotate(324deg);-o-transform: rotate(324deg);}
+.section.started .skills.circles .progress.p55 .bar {transform: rotate(225deg);-webkit-transform: rotate(198deg);-moz-transform: rotate(324deg);-o-transform: rotate(324deg);}
+.section.started .skills.circles .progress.p56 .bar {transform: rotate(225deg);-webkit-transform: rotate(201.6deg);-moz-transform: rotate(324deg);-o-transform: rotate(324deg);}
+.section.started .skills.circles .progress.p57 .bar {transform: rotate(225deg);-webkit-transform: rotate(205.2deg);-moz-transform: rotate(324deg);-o-transform: rotate(324deg);}
+.section.started .skills.circles .progress.p58 .bar {transform: rotate(225deg);-webkit-transform: rotate(208.8deg);-moz-transform: rotate(324deg);-o-transform: rotate(324deg);}
+.section.started .skills.circles .progress.p59 .bar {transform: rotate(225deg);-webkit-transform: rotate(212.4deg);-moz-transform: rotate(324deg);-o-transform: rotate(324deg);}
+.section.started .skills.circles .progress.p60 .bar {transform: rotate(225deg);-webkit-transform: rotate(216deg);-moz-transform: rotate(324deg);-o-transform: rotate(324deg);}
+.section.started .skills.circles .progress.p61 .bar {transform: rotate(225deg);-webkit-transform: rotate(219.6deg);-moz-transform: rotate(324deg);-o-transform: rotate(324deg);}
+.section.started .skills.circles .progress.p62 .bar {transform: rotate(225deg);-webkit-transform: rotate(223.2deg);-moz-transform: rotate(324deg);-o-transform: rotate(324deg);}
+.section.started .skills.circles .progress.p63 .bar {transform: rotate(225deg);-webkit-transform: rotate(226.8deg);-moz-transform: rotate(324deg);-o-transform: rotate(324deg);}
+.section.started .skills.circles .progress.p64 .bar {transform: rotate(225deg);-webkit-transform: rotate(230.4deg);-moz-transform: rotate(324deg);-o-transform: rotate(324deg);}
+.section.started .skills.circles .progress.p65 .bar {transform: rotate(225deg);-webkit-transform: rotate(234deg);-moz-transform: rotate(324deg);-o-transform: rotate(324deg);}
+.section.started .skills.circles .progress.p66 .bar {transform: rotate(225deg);-webkit-transform: rotate(237.6deg);-moz-transform: rotate(324deg);-o-transform: rotate(324deg);}
+.section.started .skills.circles .progress.p67 .bar {transform: rotate(225deg);-webkit-transform: rotate(241.2deg);-moz-transform: rotate(324deg);-o-transform: rotate(324deg);}
+.section.started .skills.circles .progress.p68 .bar {transform: rotate(225deg);-webkit-transform: rotate(244.8deg);-moz-transform: rotate(324deg);-o-transform: rotate(324deg);}
+.section.started .skills.circles .progress.p69 .bar {transform: rotate(225deg);-webkit-transform: rotate(248.4deg);-moz-transform: rotate(324deg);-o-transform: rotate(324deg);}
+.section.started .skills.circles .progress.p70 .bar {transform: rotate(225deg);-webkit-transform: rotate(252deg);-moz-transform: rotate(324deg);-o-transform: rotate(324deg);}
+.section.started .skills.circles .progress.p71 .bar {transform: rotate(225deg);-webkit-transform: rotate(255.6deg);-moz-transform: rotate(324deg);-o-transform: rotate(324deg);}
+.section.started .skills.circles .progress.p72 .bar {transform: rotate(225deg);-webkit-transform: rotate(259.2deg);-moz-transform: rotate(324deg);-o-transform: rotate(324deg);}
+.section.started .skills.circles .progress.p73 .bar {transform: rotate(225deg);-webkit-transform: rotate(262.8deg);-moz-transform: rotate(324deg);-o-transform: rotate(324deg);}
+.section.started .skills.circles .progress.p74 .bar {transform: rotate(225deg);-webkit-transform: rotate(266.4deg);-moz-transform: rotate(324deg);-o-transform: rotate(324deg);}
+.section.started .skills.circles .progress.p75 .bar {transform: rotate(225deg);-webkit-transform: rotate(270deg);-moz-transform: rotate(324deg);-o-transform: rotate(324deg);}
+.section.started .skills.circles .progress.p76 .bar {transform: rotate(225deg);-webkit-transform: rotate(273.6deg);-moz-transform: rotate(324deg);-o-transform: rotate(324deg);}
+.section.started .skills.circles .progress.p77 .bar {transform: rotate(225deg);-webkit-transform: rotate(277.2deg);-moz-transform: rotate(324deg);-o-transform: rotate(324deg);}
+.section.started .skills.circles .progress.p78 .bar {transform: rotate(225deg);-webkit-transform: rotate(280.8deg);-moz-transform: rotate(324deg);-o-transform: rotate(324deg);}
+.section.started .skills.circles .progress.p79 .bar {transform: rotate(225deg);-webkit-transform: rotate(284.4deg);-moz-transform: rotate(324deg);-o-transform: rotate(324deg);}
+.section.started .skills.circles .progress.p80 .bar {transform: rotate(225deg);-webkit-transform: rotate(288deg);-moz-transform: rotate(324deg);-o-transform: rotate(324deg);}
+.section.started .skills.circles .progress.p81 .bar {transform: rotate(225deg);-webkit-transform: rotate(291.6deg);-moz-transform: rotate(324deg);-o-transform: rotate(324deg);}
+.section.started .skills.circles .progress.p82 .bar {transform: rotate(225deg);-webkit-transform: rotate(295.2deg);-moz-transform: rotate(324deg);-o-transform: rotate(324deg);}
+.section.started .skills.circles .progress.p83 .bar {transform: rotate(225deg);-webkit-transform: rotate(298.8deg);-moz-transform: rotate(324deg);-o-transform: rotate(324deg);}
+.section.started .skills.circles .progress.p84 .bar {transform: rotate(225deg);-webkit-transform: rotate(302.4deg);-moz-transform: rotate(324deg);-o-transform: rotate(324deg);}
+.section.started .skills.circles .progress.p85 .bar {transform: rotate(225deg);-webkit-transform: rotate(306deg);-moz-transform: rotate(324deg);-o-transform: rotate(324deg);}
+.section.started .skills.circles .progress.p86 .bar {transform: rotate(225deg);-webkit-transform: rotate(309.6deg);-moz-transform: rotate(324deg);-o-transform: rotate(324deg);}
+.section.started .skills.circles .progress.p87 .bar {transform: rotate(225deg);-webkit-transform: rotate(313.2deg);-moz-transform: rotate(324deg);-o-transform: rotate(324deg);}
+.section.started .skills.circles .progress.p88 .bar {transform: rotate(225deg);-webkit-transform: rotate(316.8deg);-moz-transform: rotate(324deg);-o-transform: rotate(324deg);}
+.section.started .skills.circles .progress.p89 .bar {transform: rotate(225deg);-webkit-transform: rotate(320.4deg);-moz-transform: rotate(324deg);-o-transform: rotate(324deg);}
+.section.started .skills.circles .progress.p90 .bar {transform: rotate(225deg);-webkit-transform: rotate(324deg);-moz-transform: rotate(324deg);-o-transform: rotate(324deg);}
+.section.started .skills.circles .progress.p91 .bar {transform: rotate(225deg);-webkit-transform: rotate(327.6deg);-moz-transform: rotate(324deg);-o-transform: rotate(324deg);}
+.section.started .skills.circles .progress.p92 .bar {transform: rotate(225deg);-webkit-transform: rotate(331.2deg);-moz-transform: rotate(324deg);-o-transform: rotate(324deg);}
+.section.started .skills.circles .progress.p93 .bar {transform: rotate(225deg);-webkit-transform: rotate(334.8deg);-moz-transform: rotate(324deg);-o-transform: rotate(324deg);}
+.section.started .skills.circles .progress.p94 .bar {transform: rotate(225deg);-webkit-transform: rotate(338.4deg);-moz-transform: rotate(324deg);-o-transform: rotate(324deg);}
+.section.started .skills.circles .progress.p95 .bar {transform: rotate(225deg);-webkit-transform: rotate(342deg);-moz-transform: rotate(324deg);-o-transform: rotate(324deg);}
+.section.started .skills.circles .progress.p96 .bar {transform: rotate(225deg);-webkit-transform: rotate(345.6deg);-moz-transform: rotate(324deg);-o-transform: rotate(324deg);}
+.section.started .skills.circles .progress.p97 .bar {transform: rotate(225deg);-webkit-transform: rotate(349.2deg);-moz-transform: rotate(324deg);-o-transform: rotate(324deg);}
+.section.started .skills.circles .progress.p98 .bar {transform: rotate(225deg);-webkit-transform: rotate(352.8deg);-moz-transform: rotate(324deg);-o-transform: rotate(324deg);}
+.section.started .skills.circles .progress.p99 .bar {transform: rotate(225deg);-webkit-transform: rotate(356.4deg);-moz-transform: rotate(324deg);-o-transform: rotate(324deg);}
+.section.started .skills.circles .progress.p100 .bar {transform: rotate(225deg);-webkit-transform: rotate(360deg);-moz-transform: rotate(324deg);-o-transform: rotate(324deg);}
+
+/* .section.started .skills.circles .progress.p95 .bar {transform: rotate(225deg);-webkit-transform: rotate(342deg);-moz-transform: rotate(324deg);-o-transform: rotate(324deg);} */
 .section.started .skills.circles .progress .bar {
 	position: absolute;
     width: 0.92em;
